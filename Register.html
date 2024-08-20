@@ -1,0 +1,39 @@
+<html>   
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">  
+    <title>Registration</title>
+</head>
+<body>
+    <section class="log-page" style="background: url(photos/Screenshot\ 2024-02-04\ 002701.png); background-size: cover; background-attachment: fixed; " >
+        <div class="wrapper">
+           <form action="">
+               <h1 style="font-size: 32px;">Create Your Account</h1>
+               <div class="input-box">
+                   <input type="text" id="first" placeholder="First Name" required> 
+                </div>
+                <div class="input-box">
+                    <input type="text" id="last" placeholder="Last Name" required>     
+                </div>
+               <div class="input-box">
+                   <input type="text" id="email" placeholder="Enter your Email" required> 
+                   <i class="fa-solid fa-at"></i>
+               </div>
+               <div class="input-box">
+                   <input type="password" id="pass" placeholder="Enter your Password" required> 
+                   <i  id="eye" class="fa-solid fa-eye-slash"></i>  
+               </div>
+               <div class="remember">
+                   <label><input type="checkbox">By creating account means you agree to the <a href="#" style="color: rgb(1, 111, 255);">Terms and Conditions</a>, and our  <a href="#" style="color:rgb(1, 111, 255);">Privacy Policy</a></label>
+               </div>
+               <button type="submit" class="btn" id="reBtn" style="color: black; text-decoration: none; ">Sign Up</button>
+               <div class="register">
+                   <p>Already using Startup?<a href="login.html">Sign In</a></p>
+               </div>
+           </form>
+        </div>
+    </section>
+    <script src="js/register.js"></script>
+</body>
+</html>
